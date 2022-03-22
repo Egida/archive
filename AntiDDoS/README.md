@@ -1,8 +1,8 @@
 **A custom repo for Cloudflare firewall ruleset currently in use at https://cyber-hub.pw/ https://cyber-hub.net/  **
 ```
 1 => T1 "Country" (aka TOR) is always challenged to avoid TOR routed HTTP floods.
-2 => Couple of "bad" countries are JS challenged in order to avoid RAW HTTP floods (mostly compromised IoT devices)
-3 => A good set of known hosting/VPN ASN to be challenged in order to avoid proxy based HTTP floods.
+2 => A good set of known hosting/VPN ASN to be challenged in order to avoid proxy based HTTP floods.
+3 => Consider setting your site with "Under Attack Mode" (UAM) to enable a JS challenge to all IPs.
 ```
 
 
